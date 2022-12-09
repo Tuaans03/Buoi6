@@ -329,3 +329,62 @@ font-size: unset;
     object-fit: cover;
     border-radius: 20px;
 }
+@media (min-width: 768px) and (max-width:1024px){
+    .nav-bar {
+        background-color: #fff;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        }
+
+    .flex li a{
+        color: #000;
+    }
+
+    .nav-bar a{
+        color: #000;
+    }
+
+
+    
+    .menu-img{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .menu-top img{
+        width: 50%;
+    }
+    .flex-page{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-info{
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    .page-section{
+        display: block;
+    }
+    
+    .flex-page{
+        display: block;
+    }
+    .box-info{
+        width: auto;
+    }
+    .menu-top{
+        display: block;
+    }
+    .menu-top img{
+        width: 100%;
+    }
+    .download{
+        margin-top: 1181px;
+    }
+    .flex-page{
+       height: 500px;
+    }
+    .menu-img{
+    margin-top: 325px;
+    }
+}
